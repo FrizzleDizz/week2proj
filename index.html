@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <!-- Metadata -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - GetEarth'd</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <script src="./app.js" defer></script>
+</head>
+  <!-- Body HTML -->
+<body>
+<header>
+    <!-- HTML for navigation bar -->
+    <div class = "navparent">
+        <a class="logo" href="index.html"> <img src="3ARTHDlogo.png" alt="" style="width: 170px; height: 130px;" href="index.html"></a>
+        <!-- HTML for navication links -->
+        <div class="navchildren">
+          <a class="linktwo" href="index.html">Home</a>
+          <a class="linkthree" href="gallery.html">Image Gallery</a>
+          <a class="linkfour"></a>
+          <a class="linkfive"></a>
+          <a class="linksix"></a>
+        </div>
+    </div>
+</header>
+    <!-- HTML for main -->
+<main>
+        <!-- Section 1 -->
+        <section class = "section1">
+            <div class = "sectionContent">
+                <p class = "title1"> Come in peace. </p>
+                <p class = "title2"> Visit our lands. <h1>
+                <button class = "linkbutton" href = "gallery.html"><a href = "gallery.html"> See More </a></button>
+            </div>
+        </section>
+        <!-- Section 2 -->
+        <section class = "section2">
+            <div class = "sectionContent">
+                <p class = "title1"> Find grounding on Earth. </p>
+                <p class = "title2"> View our gallery <h1>
+                <button class = "linkbutton" href = "gallery.html"><a href = "gallery.html"> See More </a></button>
+            </div>
+        </section>
+        <!-- imageGallery -->
+        <div class = "galleryParent">
+                <p class = "title3"> Beautiful Earth Views: </p>
+                <img class = "galleryImg" id = "displayImage" src="monument1sm.jpg" style = "width: 350px; height: 350px;">
+            <div class = "row1">
+                <button class = "galleryNavb" id = "prevImg" onclick="prevImage()">PREV</button>
+                <button class = "galleryNavb" id = "nextImg" onclick="nextImage()">NEXT</button>
+            <div class = "row2"> <img src="transpizza.png" alt="" style="height: 50px; width: 50px;"> </div>
+            </div> 
+        </div>
+</main>
+
+    <!-- HTML for footer -->
+<footer>
+        <p>© 2024 Earth'd - all rights reserved</p>
+</footer>
+</body>
+</html>
